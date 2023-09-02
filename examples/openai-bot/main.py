@@ -3,7 +3,7 @@ from textbase.models import OpenAI
 from typing import List
 
 # Load your OpenAI API key
-OpenAI.api_key = "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"
+OpenAI.api_key = ""
 
 # Prompt for GPT-3.5 Turbo
 SYSTEM_PROMPT = """You are OrderBot, an automated service to collect orders for a pizza restaurant. \
